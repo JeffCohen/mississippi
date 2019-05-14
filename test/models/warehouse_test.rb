@@ -3,7 +3,7 @@ require 'test_helper'
 class WarehouseTest < ActiveSupport::TestCase
 
   def test_one_shipment_per_item
-    cart = ShoppingCart.new
+    cart = ShoppingCart.new # something
     cart.add('B01DFKC2SO')
     cart.add('B01JP436TS')
 
